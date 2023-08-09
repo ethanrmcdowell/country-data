@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "country-data-81ef9": {
+      "hosting": {
+        "country-data": [
+          "country-data-81ef9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "country-data-81ef9"
+  }
+}
