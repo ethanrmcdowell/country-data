@@ -7,6 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class WorldMapComponent {
   @Output() mouseOverEvent = new EventEmitter<string>();
+  @Output() clickEvent = new EventEmitter<string>();
   countryName: any = null;
 
   onMouseOver(event: MouseEvent): void {
@@ -14,7 +15,7 @@ export class WorldMapComponent {
       this.countryName = event.target.getAttribute("title");
       this.mouseOverEvent.emit(this.countryName);
     } else {
-      this.countryName = null;
+      this.countryName = " ";
       this.mouseOverEvent.emit(this.countryName);
     }
   }
@@ -30,8 +31,12 @@ export class WorldMapComponent {
   }
 
   onMapClick(event: MouseEvent): void {
-    const clickedElement = event.target as HTMLElement;
-    const elementTitle = clickedElement.getAttribute('title');
-    console.log("clicked element:", elementTitle);
+    if (event.target instanceof SVGPathElement) {
+      this.countryName = event.target.getAttribute("title");
+      this.clickEvent.emit(this.countryName);
+    } else {
+      this.countryName = " ";
+      this.clickEvent.emit(this.countryName);
+    }
   }
 }

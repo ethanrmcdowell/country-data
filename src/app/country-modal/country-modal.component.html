@@ -1,0 +1,17 @@
+<mat-dialog-content>
+  <h2>{{ data.name }}</h2>
+  <p>official name: {{ data.officialName }}</p>
+  <p>region: {{ data.subregion }}</p>
+  <!-- <p>language: {{ data.language }}</p> -->
+  <p>population: {{ data.population }}</p>
+  <!-- <p>currency: {{ data.currency }}</p> -->
+  <p>
+    flag: <a href="{{ data.flag }}" target="_blank">{{ data.flag }}</a>
+  </p>
+  <p>
+    coat: <a href="{{ data.coat }}" target="_blank">{{ data.coat }}</a>
+  </p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

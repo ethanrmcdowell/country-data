@@ -20172,7 +20172,7 @@ export const countryData = [
     },
     {
         "name": {
-            "common": "Republic of the Congo",
+            "common": "Republic of Congo",
             "official": "Republic of the Congo",
             "nativeName": {
                 "fra": {
@@ -51751,7 +51751,7 @@ export const countryData = [
     },
     {
         "name": {
-            "common": "DR Congo",
+            "common": "Democratic Republic of Congo",
             "official": "Democratic Republic of the Congo",
             "nativeName": {
                 "fra": {

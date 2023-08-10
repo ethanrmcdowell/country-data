@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
@@ -23,6 +24,7 @@ import { providePerformance,getPerformance } from '@angular/fire/performance';
 import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { WorldMapComponent } from './world-map/world-map.component';
+import { CountryModalComponent } from './country-modal/country-modal.component';
 
 firebase.initializeApp(environment.firebase);
 
@@ -30,6 +32,7 @@ firebase.initializeApp(environment.firebase);
   declarations: [
     AppComponent,
     WorldMapComponent,
+    CountryModalComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ firebase.initializeApp(environment.firebase);
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    MatDialogModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),

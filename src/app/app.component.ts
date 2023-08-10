@@ -1,15 +1,32 @@
-import { Component,  } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { countryData } from '../assets/countries';
+import { CountryModalComponent } from './country-modal/country-modal.component'
+import { MatDialog } from '@angular/material/dialog';
+
+interface Country {
+  name: string;
+  officialName: string;
+  subregion: any;
+  language: any;
+  population: any;
+  currency: any;
+  flag: any;
+  coat: any;
+}
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
+  constructor(public dialog: MatDialog) {}
+
   title = 'country-data';
-  data: Object[] = [];
+  data: Country[] = [];
   tooltipCountry: string = '';
+  clickedCountry: string = '';
 
   ngOnInit() {
     this.handleCountryData();
@@ -17,7 +34,7 @@ export class AppComponent {
 
   handleCountryData() {
     countryData.forEach(country => {
-      const newData = {
+      const newData: Country = {
         name: country.name.common,
         officialName: country.name.official,
         subregion: country.subregion,
@@ -29,10 +46,30 @@ export class AppComponent {
       }
       this.data.push(newData);
     });
+    console.log("UPDATED COUNTRY DATA:", this.data);
   }
 
   handleTooltip(country: string) {
     this.tooltipCountry = country;
-    console.log("Tooltip Country:", country);
+  }
+
+  handleClick(country: string) {
+    this.clickedCountry = country;
+
+    console.log("Clicked ", this.clickedCountry);
+
+    let clickedData = this.data.find(country => {
+      return country.name === this.clickedCountry || country.officialName === this.clickedCountry;
+    });
+
+    if (clickedData) {
+      const dialogRef = this.dialog.open(CountryModalComponent, {
+        data: clickedData,
+      });
+  
+      dialogRef.afterClosed().subscribe(result => {
+        console.log(`Dialog result: ${result}`);
+      });
+    }
   }
 }
