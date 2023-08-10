@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TaskComponent } from './task.component';
+import { WorldMapComponent } from './world-map.component';
 
-describe('TaskComponent', () => {
-  let component: TaskComponent;
-  let fixture: ComponentFixture<TaskComponent>;
+describe('WorldMapComponent', () => {
+  let component: WorldMapComponent;
+  let fixture: ComponentFixture<WorldMapComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TaskComponent]
+      declarations: [WorldMapComponent]
     });
-    fixture = TestBed.createComponent(TaskComponent);
+    fixture = TestBed.createComponent(WorldMapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -22,14 +22,14 @@ import { provideMessaging,getMessaging } from '@angular/fire/messaging';
 import { providePerformance,getPerformance } from '@angular/fire/performance';
 import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
 import { provideStorage,getStorage } from '@angular/fire/storage';
-import { TaskComponent } from './task/task.component';
+import { WorldMapComponent } from './world-map/world-map.component';
 
 firebase.initializeApp(environment.firebase);
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskComponent
+    WorldMapComponent,
   ],
   imports: [
     BrowserModule,

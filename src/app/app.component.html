@@ -2,3 +2,15 @@
   <mat-icon>map</mat-icon>
   <span>Country Data</span>
 </mat-toolbar>
+
+<mat-card class="map-card">
+  <mat-card-header>
+    <mat-card-title> Select a country: </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <app-world-map (mouseOverEvent)="handleTooltip($event)"></app-world-map>
+  </mat-card-content>
+  <mat-card-footer>
+    <p *ngIf="this.tooltipCountry" class="tooltipText">{{ tooltipCountry }}</p>
+  </mat-card-footer>
+</mat-card>

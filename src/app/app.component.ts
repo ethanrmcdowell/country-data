@@ -1,5 +1,4 @@
 import { Component,  } from '@angular/core';
-import { Task } from './task/task';
 import { countryData } from '../assets/countries';
 
 @Component({
@@ -10,34 +9,30 @@ import { countryData } from '../assets/countries';
 export class AppComponent {
   title = 'country-data';
   data: Object[] = [];
+  tooltipCountry: string = '';
 
   ngOnInit() {
-    // console.log("countries:", countryData);
+    this.handleCountryData();
+  }
 
+  handleCountryData() {
     countryData.forEach(country => {
-      // if (country.name.common == 'United States') {
-      //   console.log("&&&&& USA &&&&&");
-      //   console.log(country);
-      // }
-
       const newData = {
         name: country.name.common,
         officialName: country.name.official,
-
         subregion: country.subregion,
-
         language: country.languages,
-
         population: country.population,
-
         currency: country.currencies,
-
         flag: country.flags.png,
-
         coat: country.coatOfArms.png,
       }
       this.data.push(newData);
     });
-    console.log("updated data:", this.data);
+  }
+
+  handleTooltip(country: string) {
+    this.tooltipCountry = country;
+    console.log("Tooltip Country:", country);
   }
 }
