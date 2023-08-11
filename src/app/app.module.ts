@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
@@ -43,6 +44,7 @@ firebase.initializeApp(environment.firebase);
     MatCardModule,
     MatButtonModule,
     MatDialogModule,
+    MatButtonToggleModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),

@@ -15,3 +15,8 @@
     height: 25px;
     resize: none;
 }
+
+.listText {
+    cursor: pointer;
+    text-decoration: underline;
+}

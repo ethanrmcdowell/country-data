@@ -27,6 +27,7 @@ export class AppComponent {
   data: Country[] = [];
   tooltipCountry: string = '';
   clickedCountry: string = '';
+  mapListToggle: string = 'map';
 
   ngOnInit() {
     this.handleCountryData();
@@ -47,6 +48,10 @@ export class AppComponent {
       this.data.push(newData);
     });
     console.log("UPDATED COUNTRY DATA:", this.data);
+  }
+
+  mapToggle(value: string) {
+    this.mapListToggle = value;
   }
 
   handleTooltip(country: string) {

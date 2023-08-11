@@ -3,14 +3,11 @@
   <p>official name: {{ data.officialName }}</p>
   <p>region: {{ data.subregion }}</p>
   <!-- <p>language: {{ data.language }}</p> -->
-  <p>population: {{ data.population }}</p>
+  <p>population: {{ data.population | number }}</p>
   <!-- <p>currency: {{ data.currency }}</p> -->
-  <p>
-    flag:
-    <a href="{{ data.flag }}" target="_blank"
-      ><img src="{{ data.flag }}" class="flagImg"
-    /></a>
-  </p>
+  <a href="{{ data.flag }}" target="_blank">
+    <img src="{{ data.flag }}" class="flagImg" />
+  </a>
 </mat-dialog-content>
 <mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>
