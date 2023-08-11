@@ -6,10 +6,10 @@
   <p>population: {{ data.population }}</p>
   <!-- <p>currency: {{ data.currency }}</p> -->
   <p>
-    flag: <a href="{{ data.flag }}" target="_blank">{{ data.flag }}</a>
-  </p>
-  <p>
-    coat: <a href="{{ data.coat }}" target="_blank">{{ data.coat }}</a>
+    flag:
+    <a href="{{ data.flag }}" target="_blank"
+      ><img src="{{ data.flag }}" class="flagImg"
+    /></a>
   </p>
 </mat-dialog-content>
 <mat-dialog-actions>

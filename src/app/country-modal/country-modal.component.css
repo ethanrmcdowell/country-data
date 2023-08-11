@@ -1,0 +1,15 @@
+.flagImg {
+    user-select: none;
+    max-width: 200px;
+    border: 2px solid black;
+}
+
+a {
+    user-select: none;
+    text-decoration: none;
+    border: 0;
+}
+
+a:focus {
+    outline: none;
+}
