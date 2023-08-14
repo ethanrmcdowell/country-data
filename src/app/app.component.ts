@@ -39,12 +39,12 @@ export class AppComponent {
         typhoid: country.typhoid,
         malaria: country.malaria,
         jEncephalitis: country.jEncephalitis,
+        visaRequired: false,
       }
 
       this.data.push(newData);
     });
-    // console.log("UPDATED COUNTRY DATA:", this.data);
-    // console.log("SUBREGION LIST:", this.subregionList);
+    console.log("UPDATED COUNTRY DATA:", this.data);
   }
 
   mapToggle(value: string) {
@@ -67,6 +67,8 @@ export class AppComponent {
     if (clickedData) {
       const dialogRef = this.dialog.open(CountryModalComponent, {
         data: clickedData,
+        height: '400px',
+        width: '600px',
       });
   
       dialogRef.afterClosed().subscribe(result => {

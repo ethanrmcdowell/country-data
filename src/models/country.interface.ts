@@ -4,8 +4,9 @@ export interface Country {
     subregion: any;
     population: any;
     flag: any;
-    yellowFever: string;
-    typhoid: string;
-    malaria: string;
-    jEncephalitis: string;
+    yellowFever: boolean;
+    typhoid: boolean;
+    malaria: boolean;
+    jEncephalitis: boolean;
+    visaRequired: boolean;
 }

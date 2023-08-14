@@ -1,37 +1,35 @@
+<h2 mat-dialog-title>
+  {{ data.name }}
+  <a href="{{ getCdcLink() }}" target="__blank">
+    <mat-icon class="cdcLink">link</mat-icon>
+  </a>
+</h2>
 <mat-dialog-content>
-  <h2>
-    {{ data.name }}
-    <a href="{{ getCdcLink() }}" target="__blank">
-      <mat-icon class="cdcLink">link</mat-icon>
-    </a>
-  </h2>
-  <p>
-    Yellow Fever:
-    <span *ngIf="data.yellowFever === 'true'; else noRes" class="yesRes">
-      Yes
-    </span>
-  </p>
-  <p>
-    Typhoid:
-    <span *ngIf="data.typhoid === 'true'; else noRes" class="yesRes">
-      Yes
-    </span>
-  </p>
-  <p>
-    Malaria:
-    <span *ngIf="data.malaria === 'true'; else noRes" class="yesRes">
-      Yes
-    </span>
-  </p>
-  <p>
-    Japanese Encephalitis:
-    <span *ngIf="data.jEncephalitis === 'true'; else noRes" class="yesRes">
-      Yes
-    </span>
-  </p>
-  <ng-template #noRes> No </ng-template>
-  <img src="{{ data.flag }}" class="flagImg" />
+  <div class="dialogParent">
+    <div class="dialogChild">
+      <p>
+        Yellow Fever:
+        <span *ngIf="data.yellowFever; else noRes" class="yesRes"> Yes </span>
+      </p>
+      <p>
+        Typhoid:
+        <span *ngIf="data.typhoid; else noRes" class="yesRes"> Yes </span>
+      </p>
+      <p>
+        Malaria:
+        <span *ngIf="data.malaria; else noRes" class="yesRes"> Yes </span>
+      </p>
+      <p>
+        Japanese Encephalitis:
+        <span *ngIf="data.jEncephalitis; else noRes" class="yesRes"> Yes </span>
+      </p>
+      <ng-template #noRes> No </ng-template>
+    </div>
+    <div class="dialogChild">
+      <img src="{{ data.flag }}" class="flagImg" />
+    </div>
+  </div>
 </mat-dialog-content>
 <mat-dialog-actions>
-  <button mat-button mat-dialog-close>Close</button>
+  <button mat-button mat-dialog-close class="closeBtn">Close</button>
 </mat-dialog-actions>

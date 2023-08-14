@@ -5,10 +5,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 34813867,
         "flag": "https://flagcdn.com/w320/sa.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cameroon",
@@ -16,10 +17,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 26545864,
         "flag": "https://flagcdn.com/w320/cm.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Iran",
@@ -27,10 +29,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 83992953,
         "flag": "https://flagcdn.com/w320/ir.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "United Arab Emirates",
@@ -38,10 +41,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 9890400,
         "flag": "https://flagcdn.com/w320/ae.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Ukraine",
@@ -49,10 +53,11 @@ export const countryData = [
         "subregion": "Eastern Europe",
         "population": 44134693,
         "flag": "https://flagcdn.com/w320/ua.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Benin",
@@ -60,10 +65,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 12123198,
         "flag": "https://flagcdn.com/w320/bj.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Kitts and Nevis",
@@ -71,10 +77,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 53192,
         "flag": "https://flagcdn.com/w320/kn.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "British Indian Ocean Territory",
@@ -82,10 +89,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 3000,
         "flag": "https://flagcdn.com/w320/io.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Indonesia",
@@ -93,10 +101,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 273523621,
         "flag": "https://flagcdn.com/w320/id.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Togo",
@@ -104,10 +113,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 8278737,
         "flag": "https://flagcdn.com/w320/tg.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Brunei",
@@ -115,10 +125,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 437483,
         "flag": "https://flagcdn.com/w320/bn.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Czechia",
@@ -126,10 +137,11 @@ export const countryData = [
         "subregion": "Central Europe",
         "population": 10698896,
         "flag": "https://flagcdn.com/w320/cz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Serbia",
@@ -137,10 +149,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 6908224,
         "flag": "https://flagcdn.com/w320/rs.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Papua New Guinea",
@@ -148,10 +161,11 @@ export const countryData = [
         "subregion": "Melanesia",
         "population": 8947027,
         "flag": "https://flagcdn.com/w320/pg.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Nauru",
@@ -159,10 +173,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 10834,
         "flag": "https://flagcdn.com/w320/nr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bermuda",
@@ -170,10 +185,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 63903,
         "flag": "https://flagcdn.com/w320/bm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Venezuela",
@@ -181,10 +197,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 28435943,
         "flag": "https://flagcdn.com/w320/ve.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Mayotte",
@@ -192,10 +209,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 226915,
         "flag": "https://flagcdn.com/w320/yt.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Romania",
@@ -203,10 +221,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 19286123,
         "flag": "https://flagcdn.com/w320/ro.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Tuvalu",
@@ -214,10 +233,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 11792,
         "flag": "https://flagcdn.com/w320/tv.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Palestine",
@@ -225,10 +245,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 4803269,
         "flag": "https://flagcdn.com/w320/ps.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "China",
@@ -236,10 +257,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 1402112000,
         "flag": "https://flagcdn.com/w320/cn.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Sri Lanka",
@@ -247,10 +269,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 21919000,
         "flag": "https://flagcdn.com/w320/lk.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "South Africa",
@@ -258,10 +281,11 @@ export const countryData = [
         "subregion": "Southern Africa",
         "population": 59308690,
         "flag": "https://flagcdn.com/w320/za.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guernsey",
@@ -269,10 +293,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 62999,
         "flag": "https://flagcdn.com/w320/gg.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Tanzania",
@@ -280,10 +305,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 59734213,
         "flag": "https://flagcdn.com/w320/tz.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guadeloupe",
@@ -291,10 +317,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 400132,
         "flag": "https://flagcdn.com/w320/gp.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Faroe Islands",
@@ -302,10 +329,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 48865,
         "flag": "https://flagcdn.com/w320/fo.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Tokelau",
@@ -313,10 +341,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 1411,
         "flag": "https://flagcdn.com/w320/tk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Malaysia",
@@ -324,10 +353,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 32365998,
         "flag": "https://flagcdn.com/w320/my.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "India",
@@ -335,20 +365,22 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 1380004385,
         "flag": "https://flagcdn.com/w320/in.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "French Southern and Antarctic Lands",
         "officialName": "Territory of the French Southern and Antarctic Lands",
         "population": 400,
         "flag": "https://flagcdn.com/w320/tf.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Gibraltar",
@@ -356,10 +388,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 33691,
         "flag": "https://flagcdn.com/w320/gi.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Norfolk Island",
@@ -367,10 +400,11 @@ export const countryData = [
         "subregion": "Australia and New Zealand",
         "population": 2302,
         "flag": "https://flagcdn.com/w320/nf.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Sudan",
@@ -378,10 +412,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 43849269,
         "flag": "https://flagcdn.com/w320/sd.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Vincent and the Grenadines",
@@ -389,10 +424,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 110947,
         "flag": "https://flagcdn.com/w320/vc.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "British Virgin Islands",
@@ -400,10 +436,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 30237,
         "flag": "https://flagcdn.com/w320/vg.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "French Polynesia",
@@ -411,10 +448,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 280904,
         "flag": "https://flagcdn.com/w320/pf.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Monaco",
@@ -422,10 +460,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 39244,
         "flag": "https://flagcdn.com/w320/mc.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Nepal",
@@ -433,10 +472,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 29136808,
         "flag": "https://flagcdn.com/w320/np.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Uzbekistan",
@@ -444,10 +484,11 @@ export const countryData = [
         "subregion": "Central Asia",
         "population": 34232050,
         "flag": "https://flagcdn.com/w320/uz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Fiji",
@@ -455,10 +496,11 @@ export const countryData = [
         "subregion": "Melanesia",
         "population": 896444,
         "flag": "https://flagcdn.com/w320/fj.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Mauritius",
@@ -466,10 +508,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 1265740,
         "flag": "https://flagcdn.com/w320/mu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Montenegro",
@@ -477,10 +520,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 621718,
         "flag": "https://flagcdn.com/w320/me.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Kiribati",
@@ -488,10 +532,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 119446,
         "flag": "https://flagcdn.com/w320/ki.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Equatorial Guinea",
@@ -499,20 +544,22 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 1402985,
         "flag": "https://flagcdn.com/w320/gq.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Heard Island and McDonald Islands",
         "officialName": "Heard Island and McDonald Islands",
         "population": 0,
         "flag": "https://flagcdn.com/w320/hm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Philippines",
@@ -520,10 +567,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 109581085,
         "flag": "https://flagcdn.com/w320/ph.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Svalbard and Jan Mayen",
@@ -531,10 +579,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 2562,
         "flag": "https://flagcdn.com/w320/sj.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cocos (Keeling) Islands",
@@ -542,10 +591,11 @@ export const countryData = [
         "subregion": "Australia and New Zealand",
         "population": 544,
         "flag": "https://flagcdn.com/w320/cc.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Mozambique",
@@ -553,10 +603,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 31255435,
         "flag": "https://flagcdn.com/w320/mz.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Suriname",
@@ -564,10 +615,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 586634,
         "flag": "https://flagcdn.com/w320/sr.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Senegal",
@@ -575,10 +627,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 16743930,
         "flag": "https://flagcdn.com/w320/sn.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Syria",
@@ -586,10 +639,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 17500657,
         "flag": "https://flagcdn.com/w320/sy.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Lesotho",
@@ -597,10 +651,11 @@ export const countryData = [
         "subregion": "Southern Africa",
         "population": 2142252,
         "flag": "https://flagcdn.com/w320/ls.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "United States Virgin Islands",
@@ -608,10 +663,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 106290,
         "flag": "https://flagcdn.com/w320/vi.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cape Verde",
@@ -619,10 +675,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 555988,
         "flag": "https://flagcdn.com/w320/cv.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "New Zealand",
@@ -630,10 +687,11 @@ export const countryData = [
         "subregion": "Australia and New Zealand",
         "population": 5084300,
         "flag": "https://flagcdn.com/w320/nz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Latvia",
@@ -641,10 +699,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 1901548,
         "flag": "https://flagcdn.com/w320/lv.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Mauritania",
@@ -652,10 +711,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 4649660,
         "flag": "https://flagcdn.com/w320/mr.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Sierra Leone",
@@ -663,10 +723,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 7976985,
         "flag": "https://flagcdn.com/w320/sl.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Thailand",
@@ -674,10 +735,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 69799978,
         "flag": "https://flagcdn.com/w320/th.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "United Kingdom",
@@ -685,10 +747,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 67215293,
         "flag": "https://flagcdn.com/w320/gb.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Iraq",
@@ -696,10 +759,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 40222503,
         "flag": "https://flagcdn.com/w320/iq.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Nigeria",
@@ -707,10 +771,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 206139587,
         "flag": "https://flagcdn.com/w320/ng.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Rwanda",
@@ -718,10 +783,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 12952209,
         "flag": "https://flagcdn.com/w320/rw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Libya",
@@ -729,10 +795,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 6871287,
         "flag": "https://flagcdn.com/w320/ly.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Australia",
@@ -740,10 +807,11 @@ export const countryData = [
         "subregion": "Australia and New Zealand",
         "population": 25687041,
         "flag": "https://flagcdn.com/w320/au.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Paraguay",
@@ -751,10 +819,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 7132530,
         "flag": "https://flagcdn.com/w320/py.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Finland",
@@ -762,10 +831,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 5530719,
         "flag": "https://flagcdn.com/w320/fi.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "San Marino",
@@ -773,10 +843,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 33938,
         "flag": "https://flagcdn.com/w320/sm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bahamas",
@@ -784,10 +855,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 393248,
         "flag": "https://flagcdn.com/w320/bs.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Dominica",
@@ -795,10 +867,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 71991,
         "flag": "https://flagcdn.com/w320/dm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Niger",
@@ -806,10 +879,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 24206636,
         "flag": "https://flagcdn.com/w320/ne.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -817,10 +891,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 53192,
         "flag": "https://flagcdn.com/w320/sh.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Solomon Islands",
@@ -828,10 +903,11 @@ export const countryData = [
         "subregion": "Melanesia",
         "population": 686878,
         "flag": "https://flagcdn.com/w320/sb.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Comoros",
@@ -839,10 +915,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 869595,
         "flag": "https://flagcdn.com/w320/km.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Ghana",
@@ -850,10 +927,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 31072945,
         "flag": "https://flagcdn.com/w320/gh.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "United States",
@@ -861,10 +939,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 329484123,
         "flag": "https://flagcdn.com/w320/us.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Malta",
@@ -872,10 +951,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 525285,
         "flag": "https://flagcdn.com/w320/mt.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Sweden",
@@ -883,10 +963,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 10353442,
         "flag": "https://flagcdn.com/w320/se.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Brazil",
@@ -894,10 +975,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 212559409,
         "flag": "https://flagcdn.com/w320/br.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Greece",
@@ -905,10 +987,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 10715549,
         "flag": "https://flagcdn.com/w320/gr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Namibia",
@@ -916,10 +999,11 @@ export const countryData = [
         "subregion": "Southern Africa",
         "population": 2540916,
         "flag": "https://flagcdn.com/w320/na.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Estonia",
@@ -927,10 +1011,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 1331057,
         "flag": "https://flagcdn.com/w320/ee.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Tonga",
@@ -938,10 +1023,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 105697,
         "flag": "https://flagcdn.com/w320/to.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Pakistan",
@@ -949,10 +1035,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 220892331,
         "flag": "https://flagcdn.com/w320/pk.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Isle of Man",
@@ -960,10 +1047,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 85032,
         "flag": "https://flagcdn.com/w320/im.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bolivia",
@@ -971,10 +1059,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 11673029,
         "flag": "https://flagcdn.com/w320/bo.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cyprus",
@@ -982,20 +1071,22 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 1207361,
         "flag": "https://flagcdn.com/w320/cy.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "South Georgia",
         "officialName": "South Georgia and the South Sandwich Islands",
         "population": 30,
         "flag": "https://flagcdn.com/w320/gs.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Kyrgyzstan",
@@ -1003,10 +1094,11 @@ export const countryData = [
         "subregion": "Central Asia",
         "population": 6591600,
         "flag": "https://flagcdn.com/w320/kg.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Honduras",
@@ -1014,10 +1106,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 9904608,
         "flag": "https://flagcdn.com/w320/hn.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Antigua and Barbuda",
@@ -1025,10 +1118,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 97928,
         "flag": "https://flagcdn.com/w320/ag.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Republic of Congo",
@@ -1036,10 +1130,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 5657000,
         "flag": "https://flagcdn.com/w320/cg.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Hong Kong",
@@ -1047,10 +1142,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 7500700,
         "flag": "https://flagcdn.com/w320/hk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Italy",
@@ -1058,10 +1154,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 59554023,
         "flag": "https://flagcdn.com/w320/it.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cuba",
@@ -1069,20 +1166,22 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 11326616,
         "flag": "https://flagcdn.com/w320/cu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Antarctica",
         "officialName": "Antarctica",
         "population": 1000,
         "flag": "https://flagcdn.com/w320/aq.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Oman",
@@ -1090,10 +1189,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 5106622,
         "flag": "https://flagcdn.com/w320/om.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Vatican City",
@@ -1101,10 +1201,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 451,
         "flag": "https://flagcdn.com/w320/va.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bahrain",
@@ -1112,10 +1213,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 1701583,
         "flag": "https://flagcdn.com/w320/bh.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Uruguay",
@@ -1123,10 +1225,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 3473727,
         "flag": "https://flagcdn.com/w320/uy.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Yemen",
@@ -1134,10 +1237,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 29825968,
         "flag": "https://flagcdn.com/w320/ye.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cambodia",
@@ -1145,10 +1249,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 16718971,
         "flag": "https://flagcdn.com/w320/kh.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Morocco",
@@ -1156,10 +1261,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 36910558,
         "flag": "https://flagcdn.com/w320/ma.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Barthélemy",
@@ -1167,10 +1273,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 4255,
         "flag": "https://flagcdn.com/w320/bl.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Kosovo",
@@ -1178,10 +1285,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 1775378,
         "flag": "https://flagcdn.com/w320/xk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Slovakia",
@@ -1189,10 +1297,11 @@ export const countryData = [
         "subregion": "Central Europe",
         "population": 5458827,
         "flag": "https://flagcdn.com/w320/sk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Martin",
@@ -1200,10 +1309,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 38659,
         "flag": "https://flagcdn.com/w320/mf.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Wallis and Futuna",
@@ -1211,10 +1321,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 11750,
         "flag": "https://flagcdn.com/w320/wf.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Botswana",
@@ -1222,10 +1333,11 @@ export const countryData = [
         "subregion": "Southern Africa",
         "population": 2351625,
         "flag": "https://flagcdn.com/w320/bw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "France",
@@ -1233,10 +1345,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 67391582,
         "flag": "https://flagcdn.com/w320/fr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Spain",
@@ -1244,10 +1357,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 47351567,
         "flag": "https://flagcdn.com/w320/es.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Christmas Island",
@@ -1255,10 +1369,11 @@ export const countryData = [
         "subregion": "Australia and New Zealand",
         "population": 2072,
         "flag": "https://flagcdn.com/w320/cx.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Zambia",
@@ -1266,10 +1381,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 18383956,
         "flag": "https://flagcdn.com/w320/zm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Croatia",
@@ -1277,10 +1393,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 4047200,
         "flag": "https://flagcdn.com/w320/hr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Armenia",
@@ -1288,10 +1405,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 2963234,
         "flag": "https://flagcdn.com/w320/am.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Palau",
@@ -1299,10 +1417,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 18092,
         "flag": "https://flagcdn.com/w320/pw.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Trinidad and Tobago",
@@ -1310,10 +1429,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 1399491,
         "flag": "https://flagcdn.com/w320/tt.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Andorra",
@@ -1321,10 +1441,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 77265,
         "flag": "https://flagcdn.com/w320/ad.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Algeria",
@@ -1332,10 +1453,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 44700000,
         "flag": "https://flagcdn.com/w320/dz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Micronesia",
@@ -1343,10 +1465,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 115021,
         "flag": "https://flagcdn.com/w320/fm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Belize",
@@ -1354,10 +1477,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 397621,
         "flag": "https://flagcdn.com/w320/bz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Taiwan",
@@ -1365,10 +1489,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 23503349,
         "flag": "https://flagcdn.com/w320/tw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Tunisia",
@@ -1376,10 +1501,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 11818618,
         "flag": "https://flagcdn.com/w320/tn.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Åland Islands",
@@ -1387,10 +1513,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 29458,
         "flag": "https://flagcdn.com/w320/ax.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Haiti",
@@ -1398,10 +1525,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 11402533,
         "flag": "https://flagcdn.com/w320/ht.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Sint Maarten",
@@ -1409,10 +1537,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 40812,
         "flag": "https://flagcdn.com/w320/sx.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Chad",
@@ -1420,10 +1549,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 16425859,
         "flag": "https://flagcdn.com/w320/td.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Liechtenstein",
@@ -1431,10 +1561,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 38137,
         "flag": "https://flagcdn.com/w320/li.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Dominican Republic",
@@ -1442,20 +1573,22 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 10847904,
         "flag": "https://flagcdn.com/w320/do.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bouvet Island",
         "officialName": "Bouvet Island",
         "population": 0,
         "flag": "https://flagcdn.com/w320/bv.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Central African Republic",
@@ -1463,10 +1596,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 4829764,
         "flag": "https://flagcdn.com/w320/cf.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Austria",
@@ -1474,10 +1608,11 @@ export const countryData = [
         "subregion": "Central Europe",
         "population": 8917205,
         "flag": "https://flagcdn.com/w320/at.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Singapore",
@@ -1485,10 +1620,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 5685807,
         "flag": "https://flagcdn.com/w320/sg.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Canada",
@@ -1496,10 +1632,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 38005238,
         "flag": "https://flagcdn.com/w320/ca.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Greenland",
@@ -1507,10 +1644,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 56367,
         "flag": "https://flagcdn.com/w320/gl.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Angola",
@@ -1518,10 +1656,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 32866268,
         "flag": "https://flagcdn.com/w320/ao.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Tajikistan",
@@ -1529,10 +1668,11 @@ export const countryData = [
         "subregion": "Central Asia",
         "population": 9537642,
         "flag": "https://flagcdn.com/w320/tj.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Portugal",
@@ -1540,10 +1680,11 @@ export const countryData = [
         "subregion": "Southern Europe",
         "population": 10305564,
         "flag": "https://flagcdn.com/w320/pt.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Eswatini",
@@ -1551,10 +1692,11 @@ export const countryData = [
         "subregion": "Southern Africa",
         "population": 1160164,
         "flag": "https://flagcdn.com/w320/sz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Somalia",
@@ -1562,10 +1704,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 15893219,
         "flag": "https://flagcdn.com/w320/so.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guyana",
@@ -1573,10 +1716,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 786559,
         "flag": "https://flagcdn.com/w320/gy.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Ivory Coast",
@@ -1584,10 +1728,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 26378275,
         "flag": "https://flagcdn.com/w320/ci.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Maldives",
@@ -1595,10 +1740,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 540542,
         "flag": "https://flagcdn.com/w320/mv.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Seychelles",
@@ -1606,10 +1752,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 98462,
         "flag": "https://flagcdn.com/w320/sc.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Aruba",
@@ -1617,10 +1764,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 106766,
         "flag": "https://flagcdn.com/w320/aw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Egypt",
@@ -1628,10 +1776,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 102334403,
         "flag": "https://flagcdn.com/w320/eg.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Madagascar",
@@ -1639,10 +1788,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 27691019,
         "flag": "https://flagcdn.com/w320/mg.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Zimbabwe",
@@ -1650,10 +1800,11 @@ export const countryData = [
         "subregion": "Southern Africa",
         "population": 14862927,
         "flag": "https://flagcdn.com/w320/zw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "South Korea",
@@ -1661,10 +1812,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 51780579,
         "flag": "https://flagcdn.com/w320/kr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Eritrea",
@@ -1672,10 +1824,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 5352000,
         "flag": "https://flagcdn.com/w320/er.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Jamaica",
@@ -1683,10 +1836,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 2961161,
         "flag": "https://flagcdn.com/w320/jm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Uganda",
@@ -1694,10 +1848,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 45741000,
         "flag": "https://flagcdn.com/w320/ug.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cayman Islands",
@@ -1705,10 +1860,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 65720,
         "flag": "https://flagcdn.com/w320/ky.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "American Samoa",
@@ -1716,10 +1872,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 55197,
         "flag": "https://flagcdn.com/w320/as.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Mongolia",
@@ -1727,10 +1884,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 3278292,
         "flag": "https://flagcdn.com/w320/mn.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Luxembourg",
@@ -1738,10 +1896,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 632275,
         "flag": "https://flagcdn.com/w320/lu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guinea",
@@ -1749,10 +1908,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 13132792,
         "flag": "https://flagcdn.com/w320/gn.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "North Macedonia",
@@ -1760,10 +1920,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 2077132,
         "flag": "https://flagcdn.com/w320/mk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bhutan",
@@ -1771,10 +1932,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 771612,
         "flag": "https://flagcdn.com/w320/bt.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Peru",
@@ -1782,10 +1944,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 32971846,
         "flag": "https://flagcdn.com/w320/pe.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "United States Minor Outlying Islands",
@@ -1793,10 +1956,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 300,
         "flag": "https://flagcdn.com/w320/um.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Kazakhstan",
@@ -1804,10 +1968,11 @@ export const countryData = [
         "subregion": "Central Asia",
         "population": 18754440,
         "flag": "https://flagcdn.com/w320/kz.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Gabon",
@@ -1815,10 +1980,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 2225728,
         "flag": "https://flagcdn.com/w320/ga.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Liberia",
@@ -1826,10 +1992,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 5057677,
         "flag": "https://flagcdn.com/w320/lr.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Switzerland",
@@ -1837,10 +2004,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 8654622,
         "flag": "https://flagcdn.com/w320/ch.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Qatar",
@@ -1848,10 +2016,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 2881060,
         "flag": "https://flagcdn.com/w320/qa.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Argentina",
@@ -1859,10 +2028,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 45376763,
         "flag": "https://flagcdn.com/w320/ar.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Falkland Islands",
@@ -1870,10 +2040,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 2563,
         "flag": "https://flagcdn.com/w320/fk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guam",
@@ -1881,10 +2052,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 168783,
         "flag": "https://flagcdn.com/w320/gu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Panama",
@@ -1892,10 +2064,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 4314768,
         "flag": "https://flagcdn.com/w320/pa.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -1903,10 +2076,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 6069,
         "flag": "https://flagcdn.com/w320/pm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Caribbean Netherlands",
@@ -1914,10 +2088,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 25987,
         "flag": "https://flagcdn.com/w320/bq.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Norway",
@@ -1925,10 +2100,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 5379475,
         "flag": "https://flagcdn.com/w320/no.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Turks and Caicos Islands",
@@ -1936,10 +2112,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 38718,
         "flag": "https://flagcdn.com/w320/tc.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bosnia and Herzegovina",
@@ -1947,10 +2124,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 3280815,
         "flag": "https://flagcdn.com/w320/ba.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Mali",
@@ -1958,10 +2136,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 20250834,
         "flag": "https://flagcdn.com/w320/ml.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Burkina Faso",
@@ -1969,10 +2148,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 20903278,
         "flag": "https://flagcdn.com/w320/bf.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Afghanistan",
@@ -1980,10 +2160,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 40218234,
         "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Slovenia",
@@ -1991,10 +2172,11 @@ export const countryData = [
         "subregion": "Central Europe",
         "population": 2100126,
         "flag": "https://flagcdn.com/w320/si.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "French Guiana",
@@ -2002,10 +2184,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 254541,
         "flag": "https://flagcdn.com/w320/gf.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Iceland",
@@ -2013,10 +2196,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 366425,
         "flag": "https://flagcdn.com/w320/is.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bulgaria",
@@ -2024,10 +2208,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 6927288,
         "flag": "https://flagcdn.com/w320/bg.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Georgia",
@@ -2035,10 +2220,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 3714000,
         "flag": "https://flagcdn.com/w320/ge.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Montserrat",
@@ -2046,10 +2232,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 4922,
         "flag": "https://flagcdn.com/w320/ms.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Ireland",
@@ -2057,10 +2244,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 4994724,
         "flag": "https://flagcdn.com/w320/ie.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Burundi",
@@ -2068,10 +2256,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 11890781,
         "flag": "https://flagcdn.com/w320/bi.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Northern Mariana Islands",
@@ -2079,10 +2268,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 57557,
         "flag": "https://flagcdn.com/w320/mp.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Grenada",
@@ -2090,10 +2280,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 112519,
         "flag": "https://flagcdn.com/w320/gd.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Belgium",
@@ -2101,10 +2292,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 11555997,
         "flag": "https://flagcdn.com/w320/be.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Albania",
@@ -2112,10 +2304,11 @@ export const countryData = [
         "subregion": "Southeast Europe",
         "population": 2837743,
         "flag": "https://flagcdn.com/w320/al.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Denmark",
@@ -2123,10 +2316,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 5831404,
         "flag": "https://flagcdn.com/w320/dk.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Colombia",
@@ -2134,10 +2328,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 50882884,
         "flag": "https://flagcdn.com/w320/co.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Lithuania",
@@ -2145,10 +2340,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 2794700,
         "flag": "https://flagcdn.com/w320/lt.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Jersey",
@@ -2156,10 +2352,11 @@ export const countryData = [
         "subregion": "Northern Europe",
         "population": 100800,
         "flag": "https://flagcdn.com/w320/je.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Kuwait",
@@ -2167,10 +2364,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 4270563,
         "flag": "https://flagcdn.com/w320/kw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Bangladesh",
@@ -2178,10 +2376,11 @@ export const countryData = [
         "subregion": "Southern Asia",
         "population": 164689383,
         "flag": "https://flagcdn.com/w320/bd.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Gambia",
@@ -2189,10 +2388,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 2416664,
         "flag": "https://flagcdn.com/w320/gm.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Pitcairn Islands",
@@ -2200,10 +2400,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 56,
         "flag": "https://flagcdn.com/w320/pn.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Western Sahara",
@@ -2211,10 +2412,11 @@ export const countryData = [
         "subregion": "Northern Africa",
         "population": 510713,
         "flag": "https://flagcdn.com/w320/eh.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Vietnam",
@@ -2222,10 +2424,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 97338583,
         "flag": "https://flagcdn.com/w320/vn.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Réunion",
@@ -2233,10 +2436,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 840974,
         "flag": "https://flagcdn.com/w320/re.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Germany",
@@ -2244,10 +2448,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 83240525,
         "flag": "https://flagcdn.com/w320/de.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Ecuador",
@@ -2255,10 +2460,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 17643060,
         "flag": "https://flagcdn.com/w320/ec.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Hungary",
@@ -2266,10 +2472,11 @@ export const countryData = [
         "subregion": "Central Europe",
         "population": 9749763,
         "flag": "https://flagcdn.com/w320/hu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Ethiopia",
@@ -2277,10 +2484,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 114963583,
         "flag": "https://flagcdn.com/w320/et.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Saint Lucia",
@@ -2288,10 +2496,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 183629,
         "flag": "https://flagcdn.com/w320/lc.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Vanuatu",
@@ -2299,10 +2508,11 @@ export const countryData = [
         "subregion": "Melanesia",
         "population": 307150,
         "flag": "https://flagcdn.com/w320/vu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "North Korea",
@@ -2310,10 +2520,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 25778815,
         "flag": "https://flagcdn.com/w320/kp.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Netherlands",
@@ -2321,10 +2532,11 @@ export const countryData = [
         "subregion": "Western Europe",
         "population": 16655799,
         "flag": "https://flagcdn.com/w320/nl.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guatemala",
@@ -2332,10 +2544,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 16858333,
         "flag": "https://flagcdn.com/w320/gt.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Russia",
@@ -2343,10 +2556,11 @@ export const countryData = [
         "subregion": "Eastern Europe",
         "population": 144104080,
         "flag": "https://flagcdn.com/w320/ru.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Mexico",
@@ -2354,10 +2568,11 @@ export const countryData = [
         "subregion": "North America",
         "population": 128932753,
         "flag": "https://flagcdn.com/w320/mx.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Marshall Islands",
@@ -2365,10 +2580,11 @@ export const countryData = [
         "subregion": "Micronesia",
         "population": 59194,
         "flag": "https://flagcdn.com/w320/mh.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Martinique",
@@ -2376,10 +2592,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 378243,
         "flag": "https://flagcdn.com/w320/mq.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Chile",
@@ -2387,10 +2604,11 @@ export const countryData = [
         "subregion": "South America",
         "population": 19116209,
         "flag": "https://flagcdn.com/w320/cl.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Macau",
@@ -2398,10 +2616,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 649342,
         "flag": "https://flagcdn.com/w320/mo.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Costa Rica",
@@ -2409,10 +2628,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 5094114,
         "flag": "https://flagcdn.com/w320/cr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Djibouti",
@@ -2420,10 +2640,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 988002,
         "flag": "https://flagcdn.com/w320/dj.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Japan",
@@ -2431,10 +2652,11 @@ export const countryData = [
         "subregion": "Eastern Asia",
         "population": 125836021,
         "flag": "https://flagcdn.com/w320/jp.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Azerbaijan",
@@ -2442,10 +2664,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 10110116,
         "flag": "https://flagcdn.com/w320/az.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Malawi",
@@ -2453,10 +2676,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 19129955,
         "flag": "https://flagcdn.com/w320/mw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "El Salvador",
@@ -2464,10 +2688,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 6486201,
         "flag": "https://flagcdn.com/w320/sv.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Israel",
@@ -2475,10 +2700,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 9216900,
         "flag": "https://flagcdn.com/w320/il.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Kenya",
@@ -2486,10 +2712,11 @@ export const countryData = [
         "subregion": "Eastern Africa",
         "population": 53771300,
         "flag": "https://flagcdn.com/w320/ke.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Cook Islands",
@@ -2497,10 +2724,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 18100,
         "flag": "https://flagcdn.com/w320/ck.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "South Sudan",
@@ -2508,10 +2736,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 11193729,
         "flag": "https://flagcdn.com/w320/ss.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Timor-Leste",
@@ -2519,10 +2748,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 1318442,
         "flag": "https://flagcdn.com/w320/tl.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Poland",
@@ -2530,10 +2760,11 @@ export const countryData = [
         "subregion": "Central Europe",
         "population": 37950802,
         "flag": "https://flagcdn.com/w320/pl.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Anguilla",
@@ -2541,10 +2772,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 13452,
         "flag": "https://flagcdn.com/w320/ai.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Barbados",
@@ -2552,10 +2784,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 287371,
         "flag": "https://flagcdn.com/w320/bb.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Turkey",
@@ -2563,10 +2796,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 84339067,
         "flag": "https://flagcdn.com/w320/tr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Belarus",
@@ -2574,10 +2808,11 @@ export const countryData = [
         "subregion": "Eastern Europe",
         "population": 9398861,
         "flag": "https://flagcdn.com/w320/by.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Guinea-Bissau",
@@ -2585,10 +2820,11 @@ export const countryData = [
         "subregion": "Western Africa",
         "population": 1967998,
         "flag": "https://flagcdn.com/w320/gw.png",
-        "yellowFever": "true",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Nicaragua",
@@ -2596,10 +2832,11 @@ export const countryData = [
         "subregion": "Central America",
         "population": 6624554,
         "flag": "https://flagcdn.com/w320/ni.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Puerto Rico",
@@ -2607,10 +2844,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 3194034,
         "flag": "https://flagcdn.com/w320/pr.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Laos",
@@ -2618,10 +2856,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 7275556,
         "flag": "https://flagcdn.com/w320/la.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Jordan",
@@ -2629,10 +2868,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 10203140,
         "flag": "https://flagcdn.com/w320/jo.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Moldova",
@@ -2640,10 +2880,11 @@ export const countryData = [
         "subregion": "Eastern Europe",
         "population": 2617820,
         "flag": "https://flagcdn.com/w320/md.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "São Tomé and Príncipe",
@@ -2651,10 +2892,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 219161,
         "flag": "https://flagcdn.com/w320/st.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Niue",
@@ -2662,10 +2904,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 1470,
         "flag": "https://flagcdn.com/w320/nu.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Curaçao",
@@ -2673,10 +2916,11 @@ export const countryData = [
         "subregion": "Caribbean",
         "population": 155014,
         "flag": "https://flagcdn.com/w320/cw.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Democratic Republic of Congo",
@@ -2684,10 +2928,11 @@ export const countryData = [
         "subregion": "Middle Africa",
         "population": 108407721,
         "flag": "https://flagcdn.com/w320/cd.png",
-        "yellowFever": "true",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "false"
+        "yellowFever": true,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Lebanon",
@@ -2695,10 +2940,11 @@ export const countryData = [
         "subregion": "Western Asia",
         "population": 6825442,
         "flag": "https://flagcdn.com/w320/lb.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Myanmar",
@@ -2706,10 +2952,11 @@ export const countryData = [
         "subregion": "South-Eastern Asia",
         "population": 54409794,
         "flag": "https://flagcdn.com/w320/mm.png",
-        "yellowFever": "false",
-        "typhoid": "true",
-        "malaria": "true",
-        "jEncephalitis": "true"
+        "yellowFever": false,
+        "typhoid": true,
+        "malaria": true,
+        "jEncephalitis": true,
+        "visaRequired": false
     },
     {
         "name": "Turkmenistan",
@@ -2717,10 +2964,11 @@ export const countryData = [
         "subregion": "Central Asia",
         "population": 6031187,
         "flag": "https://flagcdn.com/w320/tm.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "Samoa",
@@ -2728,10 +2976,11 @@ export const countryData = [
         "subregion": "Polynesia",
         "population": 198410,
         "flag": "https://flagcdn.com/w320/ws.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     },
     {
         "name": "New Caledonia",
@@ -2739,9 +2988,10 @@ export const countryData = [
         "subregion": "Melanesia",
         "population": 271960,
         "flag": "https://flagcdn.com/w320/nc.png",
-        "yellowFever": "false",
-        "typhoid": "false",
-        "malaria": "false",
-        "jEncephalitis": "false"
+        "yellowFever": false,
+        "typhoid": false,
+        "malaria": false,
+        "jEncephalitis": false,
+        "visaRequired": false
     }
 ]
