@@ -2,17 +2,7 @@ import { Component, Inject } from '@angular/core';
 import { countryData } from '../assets/countries';
 import { CountryModalComponent } from './country-modal/country-modal.component'
 import { MatDialog } from '@angular/material/dialog';
-
-interface Country {
-  name: string;
-  officialName: string;
-  subregion: any;
-  language: any;
-  population: any;
-  currency: any;
-  flag: any;
-  coat: any;
-}
+import { Country } from '../models/country.interface';
 
 @Component({
   selector: 'app-root',
@@ -28,6 +18,7 @@ export class AppComponent {
   tooltipCountry: string = '';
   clickedCountry: string = '';
   mapListToggle: string = 'map';
+  subregionList: string[] = [];
 
   ngOnInit() {
     this.handleCountryData();
@@ -35,19 +26,25 @@ export class AppComponent {
 
   handleCountryData() {
     countryData.forEach(country => {
-      const newData: Country = {
-        name: country.name.common,
-        officialName: country.name.official,
-        subregion: country.subregion,
-        language: country.languages,
-        population: country.population,
-        currency: country.currencies,
-        flag: country.flags.png,
-        coat: country.coatOfArms.png,
+      if (country.subregion && !this.subregionList.includes(country.subregion)) {
+        this.subregionList.push(country.subregion);
       }
+      const newData: Country = {
+        name: country.name,
+        officialName: country.officialName,
+        subregion: country.subregion,
+        population: country.population,
+        flag: country.flag,
+        yellowFever: country.yellowFever,
+        typhoid: country.typhoid,
+        malaria: country.malaria,
+        jEncephalitis: country.jEncephalitis,
+      }
+
       this.data.push(newData);
     });
     console.log("UPDATED COUNTRY DATA:", this.data);
+    console.log("SUBREGION LIST:", this.subregionList);
   }
 
   mapToggle(value: string) {
