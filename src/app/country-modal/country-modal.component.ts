@@ -15,4 +15,9 @@ export class CountryModalComponent {
     console.log("hey, this thing work?");
     console.log(this.data);
   }
+
+  getCdcLink() {
+    let cdcLink = "https://wwwnc.cdc.gov/travel/destinations/traveler/none/" + this.data.name.replaceAll(' ', '-') + "#vaccines-and-medicines";
+    return cdcLink;
+  }
 }

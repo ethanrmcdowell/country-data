@@ -1,6 +1,6 @@
 <mat-toolbar color="primary">
   <mat-icon>map</mat-icon>
-  <span>Country Data</span>
+  <span>Travel Health</span>
 </mat-toolbar>
 
 <div class="main-div">
@@ -30,10 +30,7 @@
     <mat-card-content *ngIf="mapListToggle === 'list'">
       <ul>
         <li *ngFor="let country of data">
-          <p
-            class="listText"
-            (click)="handleClick(country.name)"
-          >
+          <p class="listText" (click)="handleClick(country.name)">
             {{ country.name }}
           </p>
         </li>

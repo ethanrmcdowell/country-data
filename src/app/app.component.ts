@@ -43,8 +43,8 @@ export class AppComponent {
 
       this.data.push(newData);
     });
-    console.log("UPDATED COUNTRY DATA:", this.data);
-    console.log("SUBREGION LIST:", this.subregionList);
+    // console.log("UPDATED COUNTRY DATA:", this.data);
+    // console.log("SUBREGION LIST:", this.subregionList);
   }
 
   mapToggle(value: string) {
