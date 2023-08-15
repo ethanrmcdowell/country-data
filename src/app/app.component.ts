@@ -39,7 +39,7 @@ export class AppComponent {
         typhoid: country.typhoid,
         malaria: country.malaria,
         jEncephalitis: country.jEncephalitis,
-        visaRequired: false,
+        visaRequired: country.visaRequired,
       }
 
       this.data.push(newData);

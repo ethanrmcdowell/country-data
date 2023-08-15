@@ -7,6 +7,10 @@
 <mat-dialog-content>
   <div class="dialogParent">
     <div class="dialogChild">
+      <div *ngIf="data.visaRequired" class="visaDiv">
+        <mat-icon class="badgeIcon">badge</mat-icon>
+        <p>Visa Required</p>
+      </div>
       <p>
         Yellow Fever:
         <span *ngIf="data.yellowFever; else noRes" class="yesRes"> Yes </span>
