@@ -9,7 +9,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Cameroon",
@@ -21,7 +22,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Iran",
@@ -33,7 +35,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "United Arab Emirates",
@@ -45,7 +48,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Ukraine",
@@ -57,7 +61,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 4
     },
     {
         "name": "Benin",
@@ -69,7 +74,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Saint Kitts and Nevis",
@@ -81,7 +87,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "British Indian Ocean Territory",
@@ -93,7 +100,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Indonesia",
@@ -105,7 +113,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Togo",
@@ -117,7 +126,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Brunei",
@@ -129,7 +139,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Czech Republic",
@@ -141,7 +152,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Serbia",
@@ -153,7 +165,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Papua New Guinea",
@@ -165,7 +178,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Nauru",
@@ -177,7 +191,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Bermuda",
@@ -189,7 +204,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Venezuela",
@@ -201,7 +217,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Mayotte",
@@ -213,7 +230,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Romania",
@@ -225,7 +243,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Tuvalu",
@@ -237,7 +256,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Palestine",
@@ -249,7 +269,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 4
     },
     {
         "name": "China",
@@ -261,7 +282,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Sri Lanka",
@@ -273,7 +295,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "South Africa",
@@ -285,7 +308,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Guernsey",
@@ -297,7 +321,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Tanzania",
@@ -309,7 +334,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Guadeloupe",
@@ -321,7 +347,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Faroe Islands",
@@ -333,7 +360,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Tokelau",
@@ -345,7 +373,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Malaysia",
@@ -357,7 +386,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "India",
@@ -369,7 +399,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "French Southern and Antarctic Lands",
@@ -380,7 +411,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Gibraltar",
@@ -392,7 +424,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Norfolk Island",
@@ -404,7 +437,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Sudan",
@@ -416,7 +450,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Saint Vincent and the Grenadines",
@@ -428,7 +463,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "British Virgin Islands",
@@ -440,7 +476,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "French Polynesia",
@@ -452,7 +489,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Monaco",
@@ -464,7 +502,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Nepal",
@@ -476,7 +515,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Uzbekistan",
@@ -488,7 +528,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Fiji",
@@ -500,7 +541,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Mauritius",
@@ -512,7 +554,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Montenegro",
@@ -524,7 +567,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Kiribati",
@@ -536,7 +580,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Equatorial Guinea",
@@ -548,7 +593,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -559,7 +605,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Philippines",
@@ -571,7 +618,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Svalbard and Jan Mayen",
@@ -583,7 +631,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Cocos (Keeling) Islands",
@@ -595,7 +644,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Mozambique",
@@ -607,7 +657,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Suriname",
@@ -619,7 +670,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Senegal",
@@ -631,7 +683,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Syria",
@@ -643,7 +696,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Lesotho",
@@ -655,7 +709,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "United States Virgin Islands",
@@ -667,7 +722,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Cape Verde",
@@ -679,7 +735,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "New Zealand",
@@ -691,7 +748,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Latvia",
@@ -703,7 +761,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Mauritania",
@@ -715,7 +774,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Sierra Leone",
@@ -727,7 +787,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Thailand",
@@ -739,7 +800,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "United Kingdom",
@@ -751,7 +813,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Iraq",
@@ -763,7 +826,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Nigeria",
@@ -775,7 +839,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Rwanda",
@@ -787,7 +852,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Libya",
@@ -799,7 +865,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Australia",
@@ -811,7 +878,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Paraguay",
@@ -823,7 +891,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Finland",
@@ -835,7 +904,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "San Marino",
@@ -847,7 +917,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Bahamas",
@@ -859,7 +930,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Dominica",
@@ -871,7 +943,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Niger",
@@ -883,7 +956,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -895,7 +969,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Solomon Islands",
@@ -907,7 +982,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Comoros",
@@ -919,7 +995,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Ghana",
@@ -931,7 +1008,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "United States",
@@ -943,7 +1021,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Malta",
@@ -955,7 +1034,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Sweden",
@@ -967,7 +1047,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Brazil",
@@ -979,7 +1060,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Greece",
@@ -991,7 +1073,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Namibia",
@@ -1003,7 +1086,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Estonia",
@@ -1015,7 +1099,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Tonga",
@@ -1027,7 +1112,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Pakistan",
@@ -1039,7 +1125,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Isle of Man",
@@ -1051,7 +1138,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Bolivia",
@@ -1063,7 +1151,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Cyprus",
@@ -1075,7 +1164,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "South Georgia",
@@ -1086,7 +1176,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Kyrgyzstan",
@@ -1098,7 +1189,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Honduras",
@@ -1110,7 +1202,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Antigua and Barbuda",
@@ -1122,7 +1215,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Republic of Congo",
@@ -1134,7 +1228,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Hong Kong",
@@ -1146,7 +1241,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Italy",
@@ -1158,7 +1254,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Cuba",
@@ -1170,7 +1267,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Antarctica",
@@ -1181,7 +1279,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Oman",
@@ -1193,7 +1292,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Vatican City",
@@ -1205,7 +1305,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Bahrain",
@@ -1217,7 +1318,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Uruguay",
@@ -1229,7 +1331,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Yemen",
@@ -1241,7 +1344,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Cambodia",
@@ -1253,7 +1357,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Morocco",
@@ -1265,7 +1370,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Saint Barthélemy",
@@ -1277,7 +1383,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Kosovo",
@@ -1289,7 +1396,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Slovakia",
@@ -1301,7 +1409,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Saint Martin",
@@ -1313,7 +1422,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Wallis and Futuna",
@@ -1325,7 +1435,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Botswana",
@@ -1337,7 +1448,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "France",
@@ -1349,7 +1461,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Spain",
@@ -1361,7 +1474,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Christmas Island",
@@ -1373,7 +1487,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Zambia",
@@ -1385,7 +1500,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Croatia",
@@ -1397,7 +1513,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Armenia",
@@ -1409,7 +1526,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Palau",
@@ -1421,7 +1539,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Trinidad and Tobago",
@@ -1433,7 +1552,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Andorra",
@@ -1445,7 +1565,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Algeria",
@@ -1457,7 +1578,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Micronesia",
@@ -1469,7 +1591,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Belize",
@@ -1481,7 +1604,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Taiwan",
@@ -1493,7 +1617,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Tunisia",
@@ -1505,7 +1630,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Åland Islands",
@@ -1517,7 +1643,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Haiti",
@@ -1529,7 +1656,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 4
     },
     {
         "name": "Sint Maarten",
@@ -1541,7 +1669,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Chad",
@@ -1553,7 +1682,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Liechtenstein",
@@ -1565,7 +1695,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Dominican Republic",
@@ -1577,7 +1708,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Bouvet Island",
@@ -1588,7 +1720,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Central African Republic",
@@ -1600,7 +1733,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 4
     },
     {
         "name": "Austria",
@@ -1612,7 +1746,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Singapore",
@@ -1624,7 +1759,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Canada",
@@ -1636,7 +1772,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Greenland",
@@ -1648,7 +1785,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Angola",
@@ -1660,7 +1798,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Tajikistan",
@@ -1672,7 +1811,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Portugal",
@@ -1684,7 +1824,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Eswatini",
@@ -1696,7 +1837,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Somalia",
@@ -1708,7 +1850,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Guyana",
@@ -1720,7 +1863,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Ivory Coast",
@@ -1732,7 +1876,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Maldives",
@@ -1744,7 +1889,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Seychelles",
@@ -1756,7 +1902,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Aruba",
@@ -1768,7 +1915,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Egypt",
@@ -1780,7 +1928,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Madagascar",
@@ -1792,7 +1941,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Zimbabwe",
@@ -1804,7 +1954,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "South Korea",
@@ -1816,7 +1967,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Eritrea",
@@ -1828,7 +1980,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Jamaica",
@@ -1840,7 +1993,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Uganda",
@@ -1852,7 +2006,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Cayman Islands",
@@ -1864,7 +2019,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "American Samoa",
@@ -1876,7 +2032,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Mongolia",
@@ -1888,7 +2045,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Luxembourg",
@@ -1900,7 +2058,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Guinea",
@@ -1912,7 +2071,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "North Macedonia",
@@ -1924,7 +2084,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Bhutan",
@@ -1936,7 +2097,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Peru",
@@ -1948,7 +2110,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "United States Minor Outlying Islands",
@@ -1960,7 +2123,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Kazakhstan",
@@ -1972,7 +2136,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Gabon",
@@ -1984,7 +2149,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Liberia",
@@ -1996,7 +2162,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Switzerland",
@@ -2008,7 +2175,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Qatar",
@@ -2020,7 +2188,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Argentina",
@@ -2032,7 +2201,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Falkland Islands",
@@ -2044,7 +2214,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Guam",
@@ -2056,7 +2227,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Panama",
@@ -2068,7 +2240,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -2080,7 +2253,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Caribbean Netherlands",
@@ -2092,7 +2266,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Norway",
@@ -2104,7 +2279,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Turks and Caicos Islands",
@@ -2116,7 +2292,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Bosnia and Herzegovina",
@@ -2128,7 +2305,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Mali",
@@ -2140,7 +2318,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Burkina Faso",
@@ -2152,7 +2331,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Afghanistan",
@@ -2164,7 +2344,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Slovenia",
@@ -2176,7 +2357,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "French Guiana",
@@ -2188,7 +2370,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Iceland",
@@ -2200,7 +2383,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Bulgaria",
@@ -2212,7 +2396,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Georgia",
@@ -2224,7 +2409,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Montserrat",
@@ -2236,7 +2422,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Ireland",
@@ -2248,7 +2435,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Burundi",
@@ -2260,7 +2448,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Northern Mariana Islands",
@@ -2272,7 +2461,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Grenada",
@@ -2284,7 +2474,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Belgium",
@@ -2296,7 +2487,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Albania",
@@ -2308,7 +2500,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Denmark",
@@ -2320,7 +2513,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Colombia",
@@ -2332,7 +2526,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Lithuania",
@@ -2344,7 +2539,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Jersey",
@@ -2356,7 +2552,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Kuwait",
@@ -2368,7 +2565,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Bangladesh",
@@ -2380,7 +2578,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Gambia",
@@ -2392,7 +2591,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Pitcairn Islands",
@@ -2404,7 +2604,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Western Sahara",
@@ -2416,7 +2617,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Vietnam",
@@ -2428,7 +2630,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 1
     },
     {
         "name": "Réunion",
@@ -2440,7 +2643,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Germany",
@@ -2452,7 +2656,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Ecuador",
@@ -2464,7 +2669,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Hungary",
@@ -2476,7 +2682,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Ethiopia",
@@ -2488,7 +2695,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Saint Lucia",
@@ -2500,7 +2708,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Vanuatu",
@@ -2512,7 +2721,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "North Korea",
@@ -2524,7 +2734,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Netherlands",
@@ -2536,7 +2747,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Guatemala",
@@ -2548,7 +2760,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Russia",
@@ -2560,7 +2773,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Mexico",
@@ -2572,7 +2786,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Marshall Islands",
@@ -2584,7 +2799,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Martinique",
@@ -2596,7 +2812,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Chile",
@@ -2608,7 +2825,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Macau",
@@ -2620,7 +2838,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Costa Rica",
@@ -2632,7 +2851,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Djibouti",
@@ -2644,7 +2864,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Japan",
@@ -2656,7 +2877,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": true,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Azerbaijan",
@@ -2668,7 +2890,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Malawi",
@@ -2680,7 +2903,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "El Salvador",
@@ -2692,7 +2916,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Israel",
@@ -2704,7 +2929,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "Kenya",
@@ -2716,7 +2942,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Cook Islands",
@@ -2728,7 +2955,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "South Sudan",
@@ -2740,7 +2968,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Timor-Leste",
@@ -2752,7 +2981,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Poland",
@@ -2764,7 +2994,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Anguilla",
@@ -2776,7 +3007,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Barbados",
@@ -2788,7 +3020,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Turkey",
@@ -2800,7 +3033,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Belarus",
@@ -2812,7 +3046,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 4
     },
     {
         "name": "Guinea-Bissau",
@@ -2824,7 +3059,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Nicaragua",
@@ -2836,7 +3072,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 3
     },
     {
         "name": "Puerto Rico",
@@ -2848,7 +3085,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Laos",
@@ -2860,7 +3098,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Jordan",
@@ -2872,7 +3111,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Moldova",
@@ -2884,7 +3124,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 2
     },
     {
         "name": "São Tomé and Príncipe",
@@ -2896,7 +3137,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Niue",
@@ -2908,7 +3150,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 0
     },
     {
         "name": "Curaçao",
@@ -2920,7 +3163,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "Democratic Republic of Congo",
@@ -2932,7 +3176,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Lebanon",
@@ -2944,7 +3189,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 3
     },
     {
         "name": "Myanmar",
@@ -2956,7 +3202,8 @@ export const countryData = [
         "typhoid": true,
         "malaria": true,
         "jEncephalitis": true,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 4
     },
     {
         "name": "Turkmenistan",
@@ -2968,7 +3215,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": true
+        "visaRequired": true,
+        "travelAdvisory": 2
     },
     {
         "name": "Samoa",
@@ -2980,7 +3228,8 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     },
     {
         "name": "New Caledonia",
@@ -2992,6 +3241,7 @@ export const countryData = [
         "typhoid": false,
         "malaria": false,
         "jEncephalitis": false,
-        "visaRequired": false
+        "visaRequired": false,
+        "travelAdvisory": 1
     }
-]
+];

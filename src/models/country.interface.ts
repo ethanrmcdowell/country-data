@@ -9,4 +9,5 @@ export interface Country {
     malaria: boolean;
     jEncephalitis: boolean;
     visaRequired: boolean;
+    travelAdvisory: number;
 }
