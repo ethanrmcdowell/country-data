@@ -7,27 +7,36 @@
 <mat-dialog-content>
   <div class="dialogParent">
     <div class="dialogChild">
-      <div *ngIf="data.visaRequired" class="visaDiv">
-        <mat-icon class="badgeIcon">badge</mat-icon>
-        <p>Visa Required</p>
-      </div>
-      <p>
-        Yellow Fever:
-        <span *ngIf="data.yellowFever; else noRes" class="yesRes"> Yes </span>
-      </p>
-      <p>
-        Typhoid:
-        <span *ngIf="data.typhoid; else noRes" class="yesRes"> Yes </span>
-      </p>
-      <p>
-        Malaria:
-        <span *ngIf="data.malaria; else noRes" class="yesRes"> Yes </span>
-      </p>
-      <p>
-        Japanese Encephalitis:
-        <span *ngIf="data.jEncephalitis; else noRes" class="yesRes"> Yes </span>
-      </p>
-      <ng-template #noRes> No </ng-template>
+      <ul>
+        <li *ngIf="data.visaRequired">
+          US Visa <span class="yesRes">required</span>
+        </li>
+        <li *ngIf="data.travelAdvisory !== 0">
+          Travel Advisory: {{ data.travelAdvisory }}
+          <ul>
+            <li>{{ getTravelAdvisory() }}</li>
+          </ul>
+        </li>
+        <li>
+          Yellow Fever:
+          <span *ngIf="data.yellowFever; else noRes" class="yesRes"> Yes </span>
+        </li>
+        <li>
+          Typhoid:
+          <span *ngIf="data.typhoid; else noRes" class="yesRes"> Yes </span>
+        </li>
+        <li>
+          Malaria:
+          <span *ngIf="data.malaria; else noRes" class="yesRes"> Yes </span>
+        </li>
+        <li>
+          Japanese Encephalitis:
+          <span *ngIf="data.jEncephalitis; else noRes" class="yesRes">
+            Yes
+          </span>
+        </li>
+        <ng-template #noRes> No </ng-template>
+      </ul>
     </div>
     <div class="dialogChild">
       <img src="{{ data.flag }}" class="flagImg" />

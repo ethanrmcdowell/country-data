@@ -40,7 +40,7 @@ export class AppComponent {
         malaria: country.malaria,
         jEncephalitis: country.jEncephalitis,
         visaRequired: country.visaRequired,
-        travelAdvisory: 0,
+        travelAdvisory: country.travelAdvisory,
       }
 
       this.data.push(newData);
