@@ -3,7 +3,7 @@
 The goal of this project is to provide an interactive map for travelers which displays important information
 for each country on the globe.
 
-[Deployed Application](https://ethanrmcdowell.github.io/vehicle-dashboard/](https://country-data-81ef9.web.app/)
+[Deployed Application](https://country-data-81ef9.web.app/)
 
 ## FEATURES
 
