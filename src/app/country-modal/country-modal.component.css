@@ -39,7 +39,6 @@ a:focus {
 
 .closeBtn {
     position: absolute;
-    bottom: -20px;
     right: 20px;
 }
 
@@ -53,4 +52,16 @@ a:focus {
 
 .badgeIcon {
     color: red;
+}
+
+@media only screen and (max-width: 480px) {
+    .dialogParent {
+        display: grid;
+        margin-top: 25px;
+    }
+    
+    .dialogChild {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

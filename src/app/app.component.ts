@@ -20,8 +20,18 @@ export class AppComponent {
   mapListToggle: string = 'map';
   subregionList: string[] = [];
 
+  isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
+
   ngOnInit() {
     this.handleCountryData();
+
+    if (this.isMobile) {
+      console.log("MOBILE PHONE!");
+      this.mapListToggle = 'list';
+    } else {
+      console.log("NOT A MOBILE DEVICE!");
+      this.mapListToggle = 'map';
+    }
   }
 
   handleCountryData() {
@@ -45,7 +55,7 @@ export class AppComponent {
 
       this.data.push(newData);
     });
-    console.log("UPDATED COUNTRY DATA:", this.data);
+    this.data.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   mapToggle(value: string) {
@@ -68,6 +78,7 @@ export class AppComponent {
     if (clickedData) {
       const dialogRef = this.dialog.open(CountryModalComponent, {
         data: clickedData,
+        panelClass: "dialog-responsive",
         height: '400px',
         width: '600px',
       });
